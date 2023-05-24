@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.2rem;
+    background: #000;
+    color: #eee;
+    border-radius: 50px;
+    margin: 20px 0;
+    transition: background 500ms ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: darkgoldenrod;
+
+}
+
+#navbar{
+    width: 100%;
+    color: darkgoldenrod;
+    height: 80px;
+    position: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    background: #111;
+
+}
+#navbar-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-items{
+    display: flex;
+    list-style: none;
+}
+
+#navbar-items a{
+    color: #eee;
+    padding: 30px;
+}
+
+#navbar-items a:hover{
+    cursor: pointer;
+    color: darkgoldenrod;
+}
+
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background: no-repeat center center/cover;
+    background: #111;
+}
+
+#showcase-container{
+    text-align: center;
+}
+
+#showcase-container h5{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #929292;
+    letter-spacing: 8px;
+    margin-bottom: 15px;
+    margin-right: 170px;
+}
+
+#showcase-container h2{
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #eee;
+    letter-spacing: 8px;
+}
+
+#showcase-container p{
+    font-size: 1rem;
+    padding: 7px 0;
+    color: #eee;
+    font-style: normal;
+}
+
+#sobre{
+    width: 100vw;
+}
+
+#sobre-container{
+    background: #272727;
+    color: #eee;
+    padding: 80px 30px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+#sobre-container h2{
+    font-size: 2.0rem;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+#sobre-container h1{
+    text-align: center;
+    font-size: 1rem;
+    opacity: 30%;
+    letter-spacing: 30px;
+    margin-left: 20px;
+    padding: 20px;
+
+}
+
+#fotosobre{
+    width: 30vh;
+    border-radius: 80%;
+    
+}
+
+#sobre-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#sobre-container p{
+    position: relative;
+    font-size: 20px;
+    top: 150px;
+}
+
+#sobre-container h5{
+    position: relative;
+    left: 500px;
+}
