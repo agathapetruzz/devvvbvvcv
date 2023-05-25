@@ -113,8 +113,9 @@ a{
 
 #sobre-container{
     align-items: center;
- 
-}
+  
+    
+} 
 
 #sobre-container h2{
     font-size: 45px;
