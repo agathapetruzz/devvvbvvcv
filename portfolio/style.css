@@ -72,8 +72,8 @@ a{
     justify-content: center;
     align-items: center;
     color: #000;
-    background: no-repeat center center/cover;
-    background: #111;
+    background: #111 no-repeat center center/cover;
+
 }
 
 #showcase-container{
@@ -104,54 +104,52 @@ a{
 }
 
 #sobre{
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: #eee;
+    background: #272727 no-repeat center center/cover;
 }
 
 #sobre-container{
-    background: #272727;
-    color: #eee;
-    padding: 80px 30px;
-    width: 100%;
-    display: flex;
-    text-align: center;
+    align-items: center;
+ 
 }
 
 #sobre-container h2{
-    font-size: 2.0rem;
-    letter-spacing: 10px;
-    text-align: center;
+    font-size: 45px;
+    color: #eee;
+    letter-spacing: 20px;
+    padding: 60px 60px 0px 60px;
 }
 
 #sobre-container h1{
-    text-align: center;
-    font-size: 1rem;
-    opacity: 30%;
-    letter-spacing: 30px;
-    margin-left: 20px;
-    padding: 20px;
-
+    color: #4d4d4d;
+    padding: 0px 60px 60px ;
 }
 
 #fotosobre{
-    width: 30vh;
-    border-radius: 80%;
-    
-}
-
-#sobre-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+    width: 40vh;
+    border-radius: 100%;
+    float: left;
+    margin: 60px 90px;
+    margin-right: 300px;
 }
 
 #sobre-container p{
-    position: relative;
     font-size: 20px;
-    top: 150px;
+    color: #eee;
+    text-align: center;
+    padding: 60px 0;
+
 }
 
 #sobre-container h5{
-    position: relative;
-    left: 500px;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 12px;
+    margin-top: 200px;
+
+
 }
